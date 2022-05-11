@@ -1,5 +1,5 @@
 public interface ISubject {
-    public void attach(IObserver update);
-    public void detach(IObserver remove);
-    public void notify(String bildirim);
+    void attach(IObserver observer);
+    void detach(IObserver observer);
+    void notify(String message);
 }

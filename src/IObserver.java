@@ -1,3 +1,3 @@
 public interface IObserver {
-   public void update(String mesaj);
+   void update(String message);
 }

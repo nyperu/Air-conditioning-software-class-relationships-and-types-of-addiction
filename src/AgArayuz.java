@@ -20,7 +20,7 @@ public class AgArayuz implements IAgArayuz{
     }
     public void islemSecimi() {
         Scanner input = new Scanner(System.in);
-        IIslemci islemci = Factory.islemci()    ;
+        IIslemci islemci = Factory.islemci();
         int sec;
         int defaultSicaklikSec;
         do {

@@ -6,6 +6,7 @@ public class SicaklikAlgilayici implements ISicaklikAlgilayici {//bu sınıftaki
     public int sicaklikOkuRastGele() {
         Random rastgele = new Random();
         int sayi = rastgele.nextInt(55);
+        if(sayi+15>50){}
         return  sayi+15;
     }
 
